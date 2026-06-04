@@ -18,13 +18,13 @@ It also includes an admin interface for managing data and users.
    cd django-formmailer
 
 2. Install dependencies:
-   pip install django
+   ```pip install django```
 
 3. Run initial setup:
-   django-admin startproject mysite .
-   python manage.py startapp job_application
-   python manage.py makemigrations
-   python manage.py migrate
+   ```django-admin startproject mysite .```
+   ```python manage.py startapp job_application```
+   ```python manage.py makemigrations```
+   ```python manage.py migrate```
 
 4. Create a superuser for the admin interface:
    python manage.py createsuperuser
@@ -35,7 +35,7 @@ It also includes an admin interface for managing data and users.
    Email: xxxxxx
 
 5. Start the server:
-   python manage.py runserver
+   ```python manage.py runserver```
    
    Visit: http://127.0.0.1:8000/admin/ (127.0.0.1 in Bing)
 
